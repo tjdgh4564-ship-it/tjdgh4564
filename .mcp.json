@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "korean-law": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--ignore-scripts",
+        "--omit=optional",
+        "korean-law-mcp@4.15.9"
+      ],
+      "env": {
+        "LAW_OC": "tjdgh4564",
+        "NODE_USE_ENV_PROXY": "1"
+      }
+    }
+  }
+}
